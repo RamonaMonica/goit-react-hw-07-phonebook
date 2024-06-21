@@ -18,6 +18,7 @@
 
 body {
   background-color: rgb(254, 152, 186);
+  text-align: ce;
 }
 
 label {
@@ -47,6 +48,10 @@ div {
   margin: 0 auto;
 }
 
+.hope {
+  text-align: center;
+}
+
 .resetButton {
   margin-bottom: 20px;
   padding: 10px 20px;
@@ -55,4 +60,8 @@ div {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.input {
+  max-width: 1000px;
 }

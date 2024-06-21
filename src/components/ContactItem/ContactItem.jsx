@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './ContactItem.module.css';
 import Button from '../button/Button';
 
 import { useDispatch } from 'react-redux';
@@ -14,7 +13,7 @@ const ContactItem = ({ contact }) => {
   };
 
   return (
-    <ul className={styles.item}>
+    <ul>
       <li>
         <strong>{contact.name}</strong> {contact.phone}
       </li>
